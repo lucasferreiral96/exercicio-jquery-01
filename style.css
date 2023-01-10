@@ -1,0 +1,72 @@
+body{
+    font-family:sans-serif;
+}
+
+.container > h1{
+    text-align: center;
+}
+
+.titulo{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+#imgbox{
+    margin: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pesquisa .inputtexto{
+display: flex;
+justify-content: center;
+
+}
+
+#b-input{
+text-align: center;
+height: 30px;
+font-size: 20px;
+}
+
+.pesquisa .inputtexto,
+#b-input{
+
+    width: 100%;
+}
+
+#card{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    transition: 0.3s;
+    margin: 10px;
+}
+
+#card:hover{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.8);
+    transition: 0.3s;
+}
+
+.pesquisa{
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#imgbox{
+    width: 90vw;
+}
+
+#imgbox #card{
+    width:25%;
+}
+
+#imgbox #card img{
+    width: 100%;
+}
+
+#imgbox #card h4{
+    text-align: center;
+    padding: 10px 0;
+}
