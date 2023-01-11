@@ -40,6 +40,15 @@ font-size: 20px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
     transition: 0.3s;
     margin: 10px;
+    min-height: 400px;
+    cursor: pointer;
+
+}
+
+#card,
+#imgbox #card img{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
 }
 
 #card:hover{
@@ -62,8 +71,14 @@ font-size: 20px;
     width:25%;
 }
 
+#imgbox #card p{
+    padding: 0 10px;
+}
+
+
 #imgbox #card img{
     width: 100%;
+    bord
 }
 
 #imgbox #card h4{
